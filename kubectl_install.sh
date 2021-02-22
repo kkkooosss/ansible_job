@@ -6,7 +6,7 @@ chmod +x ./kubectl
 mkdir -p $HOME/bin && cp ./kubectl $HOME/bin/kubectl && export PATH=$PATH:$HOME/bin
 echo 'export PATH=$PATH:$HOME/bin' >> ~/.bashrc
 mkdir -p ~/.local/bin/kubectl
-mv ./kubectl ~/.local/bin/kubectl
+# mv ./kubectl ~/.local/bin/kubectl
 echo 'export PATH=$PATH:$HOME/bin/kubectl' >> ~/.bashrc
 
 
